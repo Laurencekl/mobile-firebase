@@ -14,7 +14,7 @@ android {
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "com.laurencekl.routrip"
+        applicationId = "com.laurencekl.mobilefirebase"
         minSdk = 31
         targetSdk = 37
         versionCode = 1

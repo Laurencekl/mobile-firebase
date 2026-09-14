@@ -20,5 +20,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Routrip"
+rootProject.name = "mobile-firebase"
 include(":app")
