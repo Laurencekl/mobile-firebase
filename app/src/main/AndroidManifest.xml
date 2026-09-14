@@ -6,6 +6,8 @@
         android:icon="@drawable/ic_launcher"
         android:theme="@style/Theme.Routrip">
         <activity android:name=".MainActivity" android:exported="false" />
+        <activity android:name=".CadastroActivity" android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
         <activity android:name=".LoginActivity" android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>

@@ -13,4 +13,12 @@
     <string name="erro_conexao">Sem conexão com o serviço. Verifique sua internet e tente novamente.</string>
     <string name="muitas_tentativas">Muitas tentativas. Aguarde um pouco e tente novamente.</string>
     <string name="acesso_indisponivel">O acesso ainda não está disponível nesta versão.</string>
+    <string name="confirmar_senha">Confirmar senha</string>
+    <string name="criar_conta">Criar conta</string>
+    <string name="ja_tenho_conta">Já tenho uma conta</string>
+    <string name="senha_curta">Use uma senha com pelo menos 6 caracteres.</string>
+    <string name="senhas_diferentes">As senhas não são iguais.</string>
+    <string name="senha_fraca">A senha não atende aos requisitos. Use uma senha mais forte.</string>
+    <string name="conta_criada">Conta criada com sucesso!</string>
+    <string name="erro_cadastro">Não foi possível criar a conta. Confira os dados ou tente entrar caso já tenha cadastro.</string>
 </resources>
