@@ -21,4 +21,20 @@
         android:text="@string/boas_vindas"
         android:textColor="@color/routrip_text"
         android:textSize="18sp" />
+    <TextView
+        android:id="@+id/textoUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/routrip_text_secondary"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/botaoSair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/sair_conta"
+        android:backgroundTint="@color/routrip_blue"
+        android:textColor="@android:color/white" />
 </LinearLayout>

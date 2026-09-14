@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">Routrip</string>
     <string name="boas_vindas">Bem-vindo ao Routrip!</string>
+    <string name="email">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="entre_conta">Entre na sua conta</string>
+    <string name="sair_conta">Sair da conta</string>
+    <string name="aguarde_acesso">Aguarde, verificando sua conta</string>
+    <string name="email_invalido">Informe um e-mail válido.</string>
+    <string name="senha_obrigatoria">Digite sua senha.</string>
+    <string name="login_invalido">Não foi possível entrar. Confira seu e-mail e senha e tente novamente.</string>
+    <string name="erro_conexao">Sem conexão com o serviço. Verifique sua internet e tente novamente.</string>
+    <string name="muitas_tentativas">Muitas tentativas. Aguarde um pouco e tente novamente.</string>
+    <string name="acesso_indisponivel">O acesso ainda não está disponível nesta versão.</string>
 </resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/routrip_background"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/routrip_blue"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="@string/entre_conta"
+            android:textColor="@color/routrip_text"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/campoEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="56dp"
+            android:layout_marginTop="12dp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:autofillHints="username"
+            android:singleLine="true"
+            android:saveEnabled="false"
+            android:textColor="@color/routrip_text"
+            android:textColorHint="@color/routrip_text_secondary"
+            android:backgroundTint="@color/routrip_blue" />
+        <EditText
+            android:id="@+id/campoSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="56dp"
+            android:layout_marginTop="12dp"
+            android:hint="@string/senha"
+            android:inputType="textPassword"
+            android:autofillHints="password"
+            android:singleLine="true"
+            android:saveEnabled="false"
+            android:textColor="@color/routrip_text"
+            android:textColorHint="@color/routrip_text_secondary"
+            android:backgroundTint="@color/routrip_blue" />
+
+
+        <TextView
+            android:id="@+id/mensagemAcesso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:accessibilityLiveRegion="polite"
+            android:textColor="@color/routrip_text"
+            android:textSize="16sp" />
+
+        <ProgressBar
+            android:id="@+id/progressoAcesso"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/aguarde_acesso"
+            android:indeterminateTint="@color/routrip_blue"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/botaoEntrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/entrar"
+            android:backgroundTint="@color/routrip_blue"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>
