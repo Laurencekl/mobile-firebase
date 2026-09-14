@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Mobile Firebase</string>
     <string name="boas_vindas">Bem-vindo ao Mobile Firebase!</string>
+    <string name="titulo_inicio">Início</string>
+    <string name="descricao_inicio">Você entrou na sua conta. Que bom ter você aqui!</string>
+    <string name="minha_conta">Minha conta</string>
+    <string name="sessao_ativa">Sessão ativa</string>
     <string name="email">E-mail</string>
     <string name="senha">Senha</string>
     <string name="entrar">Entrar</string>
